@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "testing_pkg1"
+version = "0.0.1"
+description = "Testing package 1"
+authors = [{ name = "username", email = "example@email.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = [
+    "requests"
+]
+
+[tool.setuptools.packages.find]
+where = ["testing_pkg1"]
+
+[project.scripts]
+my_script = "testing_pkg1.main:main"
