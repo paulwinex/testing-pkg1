@@ -1,6 +1,6 @@
 label: 'Testing_Pkg 1'
 name: 'testing_pkg1'
-version: '0.0.4'
+version: '0.0.5'
 short_description: 'Agio Core Package'
 
 repository_url: 'https://github.com/paulwinex/testing-pkg1'
