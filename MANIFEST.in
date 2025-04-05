@@ -1,0 +1,1 @@
+recursive-include testing_pkg1/data *.json

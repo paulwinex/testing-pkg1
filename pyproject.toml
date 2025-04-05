@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-where = ["testing_pkg1"]
+where = ["."]
 
 [project.scripts]
 my_script = "testing_pkg1.main:main"
