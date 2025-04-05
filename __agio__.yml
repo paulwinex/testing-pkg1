@@ -1,0 +1,10 @@
+label: 'Testing_Pkg 1'
+name: 'testing_pkg1'
+version: '0.0.4'
+short_description: 'Agio Core Package'
+
+repository_url: 'https://github.com/paulwinex/testing-pkg1'
+
+python_requirements:
+  requests: "^2.32.3"
+
